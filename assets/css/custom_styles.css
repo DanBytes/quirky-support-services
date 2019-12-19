@@ -1,0 +1,440 @@
+h1, h2, h3, h4, h5 {
+    color: rgb(37, 78, 109);
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+
+.nav-link{
+    font-size: 22px !important;
+}
+
+h2{
+    font-size: 3em !important;
+    line-height: 1em;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 600;
+}
+
+p{
+    color: rgb(46, 136, 145);
+    font-weight: 450;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.card:hover{
+    box-shadow: 0px 0px 15px#23929C;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+ul{
+
+    color: rgb(46, 136, 145);
+    font-weight: 550;
+    margin: 0;
+    padding: 0;
+
+}
+
+.service-ul{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.slogan{
+    color: white;
+    background-color: #3CABB6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 500px; 
+    height: 500px;
+}
+
+.slogan h1{
+    font-size: 57px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.centre-title{
+    text-align: center;
+}
+
+.content{
+    padding: 60px;
+    max-width: 2400px;
+    margin: auto;
+}
+
+.banner{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    margin-top: 15vh;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    max-width: 2400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .banner::before {
+    content: '';
+    position: absolute;
+    left:-50%;
+    top:100%;
+    height: 10%;
+    width:100%;
+    background: #fff;
+    transform-origin: right;
+    transform: skewY(5deg);
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    right:-50%;
+    top:100%;
+    height: 10%;
+    width:100%;
+    background: #fff;
+    transform-origin: left;
+    transform: skewY(-5deg);
+} */
+
+.phone {
+    color: #FBC226;
+    font-size: 1.5em;
+    font-weight: 700;
+    position:relative;
+}
+
+.phone::after{
+    content: "Start your NDIS journey today";
+    color: #23929C;
+    position: relative;
+    bottom: 1.3em;
+    right: 34%;
+}
+
+.content-divider{
+    height: 100px;
+}
+
+.ndis-card{
+    width: 100%;
+    margin-top: 1.5em;
+    max-width: 425px;
+}
+
+.card{
+    margin-top: 1.5em;
+    max-width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 1px solid rgba(189, 189, 189, 0.507);
+    border-radius: 10px;
+}
+
+.card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.padded {
+    padding: 10px
+}
+
+img{
+    border-radius: 10px;
+}
+
+.img-centre{
+    width: 100%;
+    max-width: 850px;
+}
+
+footer{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(167,230,231,1) 51%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+
+.card-body h5{
+    color: rgba(37, 37, 37, 0.918) !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer img{
+    max-width: 200px;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+footer ul{
+    margin: 0.5em;
+    padding: 0.5em;
+    color: rgb(17, 89, 95);
+    text-align: right;
+}
+
+footer p{
+    font-size: 0.9em;
+    color: rgb(17, 89, 95);
+    font-weight: 600;
+}
+
+
+footer .left-footer-heading{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+
+
+/* NDIS color theme */
+
+.purple-text {
+    color: #AA3CB6;
+}
+
+.green-text{
+    color:#52F62B;
+}
+
+.ndis-nav{
+    background-color: #AA3CB6 ;
+}
+
+.ndis-navbar-nav .nav-link{
+     color:white !important;
+}
+
+.ndis-slogan{
+    /* background-image: url('./images/cardsNDIS PNG-transparant.png'); */
+    max-width: 350px;
+    max-height: 350px;
+    top: 35vh;
+    left:65%;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    width: 583px; height: 583px;
+}
+
+
+
+/* About us*/
+
+.about-slogan{
+    background-color:rgba(248, 248, 248, 0.74);
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 750px;
+    position: relative;
+    top:40%;
+}
+
+.about-slogan h2 {
+    text-align: right;
+}
+
+.about-slogan p{
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+}
+
+.no-style-list{
+    list-style-type: none;
+}
+
+.navbar{
+    min-height: 15%;
+}
+
+
+.profile-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffd972af;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.profile-card .title {
+  font-size: 18px;
+  text-align: center;
+  color:white !important; 
+}
+.profile-card-head{
+    background-color: #3CABB6;
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.profile-card img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+.profile-card p {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: rgb(37, 114, 121);
+}
+
+.profile-card h1 {
+    color: white;
+}
+
+.team{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+
+@media(max-width:1200px){
+    footer{
+        text-align: center;
+    }
+
+    footer img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer ul{
+        text-align: center;
+    }
+
+    footer .left-footer-heading{
+        text-align: center;
+    }
+}
+
+@media(max-width:637){
+
+}
+
+
+
+@media(max-width:1250px){
+    .phone{
+        left: 2%;
+        font-size: 0.9em !important;
+
+    } 
+}
+
+@media(max-width:637px){
+    .phone{
+        top: 20px;
+        font-size: 14px !important;
+        /* 
+        left: 10%;
+        font-size: 0.9em; */
+
+    } 
+
+    .phone::after{
+        font-size: 10px !important;
+    }
+}
+
+@media(max-width:502px){
+
+    .navbar-brand{
+        width: 60%;
+        display: none;
+    }
+}
+
+
+@media(max-width:435px){
+    .phone{
+        top: -12px;
+		left: 60px;
+        font-size: 0.9em;
+
+    }
+    .navbar-brand img{
+        width: 150px;
+        margin-left: 55%;
+        margin-right: auto;
+    }
+}
+
+
+@media(max-width:425px){
+    .phone{
+        left: 20%;
+    }
+
+}
+
+@media(max-width:1284px){
+    .slogan h1{
+        font-size: 30px;
+    }
+
+    .slogan{
+        width: 300px; 
+        height: 300px;
+    }
+}
+
+@media(max-width:700px){
+    .slogan{
+        margin-top: 40vh;
+    }
+}
+
+@media(max-height:700px){
+    .slogan{
+        margin-top: 20vh;
+    }
+}
+
+@media(max-width:1423px){
+    h2{
+        font-size: 40px;
+    }
+}
+
+
+
+@media(min-width:637px){
+    .home{display: none;}
+}
